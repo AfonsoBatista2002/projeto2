@@ -3,10 +3,10 @@ import { ortho, lookAt, flatten, vec3, translate, rotateX, rotateY,mult,vec4 } f
 import {modelView, loadMatrix, multRotationY, multScale, multTranslation, pushMatrix, popMatrix, multRotationX, multRotationZ, multMatrix } from "/libs/stack.js";
 
 
-import * as CUBE from 'libs/objects/cube.js';
-import * as CYLINDER from 'libs/objects/cylinder.js';
-import * as PYRAMID from 'libs/objects/pyramid.js';
-import * as SPHERE from 'libs/objects/sphere.js'
+import * as CUBE from '/libs/objects/cube.js';
+import * as CYLINDER from '/libs/objects/cylinder.js';
+import * as PYRAMID from '/libs/objects/pyramid.js';
+import * as SPHERE from '/libs/objects/sphere.js'
 
 /** @type WebGLRenderingContext */
 let gl;
